@@ -18,15 +18,20 @@ int main(int argc, char *argv[]) {
 ---------------------------------------------------------- Outro jeito----------------------------------------------------------------
 #include <stdio.h>
 #include <stdlib.h>
+#incluide <math.h>
+
 int main(int argc, char *argv[]) {
-  float r, area, r2; 
-  printf("Insira o raio R do circulo \n ");
-  scanf("%f", &r);
-  r2 = pow(r,2);
-  r2= r*r
-  area = pi*r2;
-  area = pi * (r*r);
-  area = M_PI * pow (r,2);
-  printf (" A area do circulo de raio R %f = %f", r, area);
-  return 0;
+
+    float r, area, r2;
+
+    printf("Insira o raio R do circulo: \n");
+    scanf("%f", &r);
+
+    r2 = pow(r, 2);
+
+    area = 3.14159 * r2;
+
+    printf("A area do circulo de raio %.2f = %.2f\n", r, area);
+
+    return 0;
 }
