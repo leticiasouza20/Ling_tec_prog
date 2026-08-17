@@ -1,9 +1,9 @@
 1)
-int main(int argc, char *argv[]) {
 #include <stdio.h>
+int main(int argc, char *argv[]) {
 
     int num1, num2;
-
+    
     printf("Insira número 1: ");
     scanf("%d", &num1);                   //& endereço comercial, a base da variável
 
@@ -16,12 +16,12 @@ int main(int argc, char *argv[]) {
 }
 
 2)
-int main(int argc, char *argv[]) {
 #include <stdio.h>
+int main(int argc, char *argv[]) {
 
     double valor;
     int n = 0;
-
+    
     printf("Digite um valor: ");
     scanf("%lf", &valor);
 
@@ -39,11 +39,11 @@ int main(int argc, char *argv[]) {
 }
 
 3)  
-int main(int argc, char *argv[]) {
 #include <stdio.h>
-
+int main(int argc, char *argv[]) {
+    
     int n;
-
+    
     printf("Digite um numero: ");
     scanf("%d", &n);
 
@@ -60,11 +60,11 @@ int main(int argc, char *argv[]) {
 }
 
 4) 
-int main(int argc, char *argv[]) {
 #include <stdio.h>
+int main(int argc, char *argv[]) {
 
     double salario, vendas, total;
-
+    
     printf("Digite o salario fixo: ");
     scanf("%lf", &salario);
 
@@ -79,12 +79,12 @@ int main(int argc, char *argv[]) {
 }
 
 5)
-int main(int argc, char *argv[]) {
 #include <stdio.h>
+int main(int argc, char *argv[]) {
 
     double a, b, c, d;   //usuário digitar
     double soma, media, produto;  //guardar resultados
-
+    
     printf("Digite o primeiro valor: ");
     scanf("%lf", &a);
 
@@ -110,11 +110,11 @@ int main(int argc, char *argv[]) {
 
 
 6)
-int main(int argc, char *argv[]) {
 #include <stdio.h>
+int main(int argc, char *argv[]) {
 
     int idade, anos, meses, dias;
-
+    
     printf("Digite a idade em dias: ");
     scanf("%d", &idade);
 
@@ -130,13 +130,13 @@ int main(int argc, char *argv[]) {
 }
 
 7)
-int main(int argc, char *argv[]) {
 #include <stdio.h>
 #include <math.h>
+int main(int argc, char *argv[]) {
     
     double raio, volume;
     double pi = 3.14159;
-
+    
     printf("Digite o raio: ");
     scanf("%lf", &raio);
 
@@ -148,13 +148,13 @@ int main(int argc, char *argv[]) {
 }
 
 8)
-int main(int argc, char *argv[]) {
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+int main(int argc, char *argv[]) {
 
-int x1, y1, x2, y2;
-float dist, cat1,cat2;
+    int x1, y1, x2, y2;
+    float dist, cat1,cat2;
     
     printf("Entre com os valores para p1 (x1,y1)";
     scanf("Leitura: %d,&x1);
