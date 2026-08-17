@@ -5,7 +5,7 @@ int main(int argc, char *argv[]) {
     int num1, num2;
 
     printf("Insira número 1: ");
-    scanf("%d", &num1);
+    scanf("%d", &num1);                   //& endereço comercial, a base da variável
 
     printf("Insira número 2: ");
     scanf("%d", &num2);
@@ -19,7 +19,6 @@ int main(int argc, char *argv[]) {
 int main(int argc, char *argv[]) {
 #include <stdio.h>
 
-int main() {
     double valor;
     int n = 0;
 
@@ -43,8 +42,6 @@ int main() {
 int main(int argc, char *argv[]) {
 #include <stdio.h>
 
-int main() {
-
     int n;
 
     printf("Digite um numero: ");
@@ -66,8 +63,6 @@ int main() {
 int main(int argc, char *argv[]) {
 #include <stdio.h>
 
-int main() {
-
     double salario, vendas, total;
 
     printf("Digite o salario fixo: ");
@@ -86,8 +81,6 @@ int main() {
 5)
 int main(int argc, char *argv[]) {
 #include <stdio.h>
-
-int main() {
 
     double a, b, c, d;   //usuário digitar
     double soma, media, produto;  //guardar resultados
@@ -120,8 +113,6 @@ int main() {
 int main(int argc, char *argv[]) {
 #include <stdio.h>
 
-int main() {
-
     int idade, anos, meses, dias;
 
     printf("Digite a idade em dias: ");
@@ -142,9 +133,7 @@ int main() {
 int main(int argc, char *argv[]) {
 #include <stdio.h>
 #include <math.h>
-
-int main() {
-
+    
     double raio, volume;
     double pi = 3.14159;
 
@@ -161,34 +150,24 @@ int main() {
 8)
 int main(int argc, char *argv[]) {
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
-int main() {
+int x1, y1, x2, y2;
+float dist, cat1,cat2;
+    
+    printf("Entre com os valores para p1 (x1,y1)";
+    scanf("Leitura: %d,&x1);
+    scanf("Leitura: %d,&y1);
 
-    double x1, y1, x2, y2;
-    double a, b, distancia;
+    printf("Entre com os valores para p1 (x2,y2)";
+    scanf("Leitura: %d,&x2);
+    scanf("Leitura: %d,&y2);
+        cat1= pow ((x2-x1),2);
+        cat2= pow ((y2-1), 2);
 
-    printf("Digite x1: ");
-    scanf("%lf", &x1);
+    dist = sqrt (cat1+cat2);
+    print("Distancia: %f", dist);
 
-    printf("Digite y1: ");
-    scanf("%lf", &y1);
-
-    printf("Digite x2: ");
-    scanf("%lf", &x2);
-
-    printf("Digite y2: ");
-    scanf("%lf", &y2);
-
-    a = x2 - x1;
-    b = y2 - y1;
-
-    a = a * a;  // quadrado
-    b = b * b;  // quadrado
-
-    distancia = sqrt(a + b);  //raiz quadrada e a soma dos quadrados
-
-    printf("Distancia = %.4lf \n", distancia);
-
-    return 0;
+    return 0;   
 }
