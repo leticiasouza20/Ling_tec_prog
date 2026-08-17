@@ -1,7 +1,6 @@
 1)
-#include <stdio.h>
-
 int main(int argc, char *argv[]) {
+#include <stdio.h>
 
     int num1, num2;
 
@@ -17,6 +16,7 @@ int main(int argc, char *argv[]) {
 }
 
 2)
+int main(int argc, char *argv[]) {
 #include <stdio.h>
 
 int main() {
@@ -40,6 +40,7 @@ int main() {
 }
 
 3)  
+int main(int argc, char *argv[]) {
 #include <stdio.h>
 
 int main() {
@@ -62,6 +63,7 @@ int main() {
 }
 
 4) 
+int main(int argc, char *argv[]) {
 #include <stdio.h>
 
 int main() {
@@ -82,6 +84,7 @@ int main() {
 }
 
 5)
+int main(int argc, char *argv[]) {
 #include <stdio.h>
 
 int main() {
@@ -114,6 +117,7 @@ int main() {
 
 
 6)
+int main(int argc, char *argv[]) {
 #include <stdio.h>
 
 int main() {
@@ -135,6 +139,7 @@ int main() {
 }
 
 7)
+int main(int argc, char *argv[]) {
 #include <stdio.h>
 #include <math.h>
 
@@ -154,6 +159,7 @@ int main() {
 }
 
 8)
+int main(int argc, char *argv[]) {
 #include <stdio.h>
 #include <math.h>
 
