@@ -151,23 +151,26 @@ int main(int argc, char *argv[]) {
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+
 int main(int argc, char *argv[]) {
 
     int x1, y1, x2, y2;
-    float dist, cat1,cat2;
-    
-    printf("Entre com os valores para p1 (x1,y1)";
-    scanf("Leitura: %d,&x1);
-    scanf("Leitura: %d,&y1);
+    float dist, cat1, cat2;
 
-    printf("Entre com os valores para p1 (x2,y2)";
-    scanf("Leitura: %d,&x2);
-    scanf("Leitura: %d,&y2);
-        cat1= pow ((x2-x1),2);
-        cat2= pow ((y2-1), 2);
+    printf("Entre com os valores para p1 (x1,y1):\n");
+    scanf("%d", &x1);
+    scanf("%d", &y1);
 
-    dist = sqrt (cat1+cat2);
-    print("Distancia: %f", dist);
+    printf("Entre com os valores para p2 (x2,y2):\n");
+    scanf("%d", &x2);
+    scanf("%d", &y2);
 
-    return 0;   
+    cat1 = pow((x2 - x1), 2);
+    cat2 = pow((y2 - y1), 2);
+
+    dist = sqrt(cat1 + cat2);
+
+    printf("Distancia: %f\n", dist);
+
+    return 0;
 }
