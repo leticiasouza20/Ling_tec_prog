@@ -88,9 +88,8 @@ int main(int argc, char *argv[]) {
 
     ant = num - 1;
     suc = num + 1;
-
-    printf("O antecessor = %d\n", ant);
-    printf("O sucessor = %d\n", suc);
+    
+    printf("O antecessor = %d | O sucessor = %d \n", ant, suc);
 
     return 0;
 }
@@ -172,7 +171,7 @@ int main(int argc, char *argv[]) {
 
     maior = (maiorAB + c + abs(maiorAB - c)) / 2;
 
-    printf("%d eh o maior\n", maior);
+    printf("%d O número maior: \n", maior);
 
     return 0;
 }
