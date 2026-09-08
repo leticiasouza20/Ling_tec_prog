@@ -326,7 +326,18 @@ int main(int argc, char *argv[]) {
 
     int opcao;
 
-    printf("Digite o numero do exercicio: ");
+    printf("\n========== MENU ==========\n");
+    printf("1 - Exercício 1\n");
+    printf("2 - Exercício 2\n");
+    printf("3 - Exercício 3\n");
+    printf("4 - Exercício 4\n");
+    printf("5 - Exercício 5\n");
+    printf("6 - Exercício 6\n");
+    printf("7 - Exercício 7\n");
+    printf("8 - Exercício 8\n");
+    printf("==========================\n");
+
+    printf("Escolha o exercício: ");
     scanf("%d", &opcao);
 
     switch (opcao) {
@@ -345,6 +356,7 @@ int main(int argc, char *argv[]) {
 
             break;
         }
+
 
         // EXERCÍCIO 2
         case 2: {
@@ -369,6 +381,7 @@ int main(int argc, char *argv[]) {
             break;
         }
 
+
         // EXERCÍCIO 3
         case 3: {
             int numeroBinario;
@@ -388,6 +401,7 @@ int main(int argc, char *argv[]) {
             break;
         }
 
+
         // EXERCÍCIO 4
         case 4: {
             double salario, vendas, total;
@@ -404,6 +418,7 @@ int main(int argc, char *argv[]) {
 
             break;
         }
+
 
         // EXERCÍCIO 5
         case 5: {
@@ -433,6 +448,7 @@ int main(int argc, char *argv[]) {
             break;
         }
 
+
         // EXERCÍCIO 6
         case 6: {
             int idade, anos, meses, dias;
@@ -451,6 +467,7 @@ int main(int argc, char *argv[]) {
             break;
         }
 
+
         // EXERCÍCIO 7
         case 7: {
             double raio, volume;
@@ -465,6 +482,7 @@ int main(int argc, char *argv[]) {
 
             break;
         }
+
 
         // EXERCÍCIO 8
         case 8: {
@@ -488,6 +506,7 @@ int main(int argc, char *argv[]) {
 
             break;
         }
+
 
         default:
             printf("Exercicio invalido!\n");
