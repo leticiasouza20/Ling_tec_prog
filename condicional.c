@@ -55,9 +55,9 @@ int main() {
     scanf("%d", &n);
 
     if (n % 2 == 0) {
-        printf("O numero e par.\n");
+        printf("O número é par\n");
     } else {
-        printf("O numero e impar.\n");
+        printf("O número é ímpar\n");
     }
 
     return 0;
