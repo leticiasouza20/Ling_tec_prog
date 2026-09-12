@@ -131,10 +131,10 @@ int main(int argc, char *argv[]) {
     scanf("%d", &x2);
     scanf("%d", &y2);
 
-    cat1 = pow((x2 - x1), 2);
+    cat1 = pow((x2 - x1), 2);  //(x2 - x1) * (x2 - x1)
     cat2 = pow((y2 - y1), 2);
 
-    dist = sqrt(cat1 + cat2);
+    dist = sqrt(cat1 + cat2); //soma dos catetos vira a raiz quadrada
 
     printf("Distancia: %f\n", dist);
 
