@@ -39,11 +39,29 @@ int main() {
 
 //2
 #include <stdio.h>
+#include <math.h>
 
 int main() {
-    double n;
+    double n, a;
+    int expoente = 0;
+
+    printf("Digite um valor: ");
     scanf("%lf", &n);
-    printf("%e\n", n);
+
+    a = n;
+
+    while (a >= 10) {
+        a = a / 10;
+        expoente++;
+    }
+
+    while (a < 1) {
+        a = a * 10;
+        expoente--;
+    }
+
+    printf("Resultado: %.2lf x 10^%d\n", a, expoente);
+
     return 0;
 }
 
